@@ -1,0 +1,359 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+.margin_bottom_full{
+	margin-bottom: 100px;
+}
+
+.margin_top_full{
+	margin-top: 100px;
+}
+
+.padding_bottom_full{
+	padding-bottom: 100px;
+}
+
+.padding_top_full{
+	padding-top: 100px;
+}
+
+.contenedor{
+	padding-top: 70px;
+}
+
+.contenedorSec{
+	padding-top: 30px;
+}
+
+.enlace{
+	color: black;
+	border-bottom: 3px solid rgb(31, 155, 229);
+}
+
+.divContAd img{
+	margin-bottom: 15px;
+}
+
+.divContAd h4{
+	color: black;
+	font-family: cambria;
+}
+
+.divContAd p{
+	font-family: roboto;
+}
+
+.cont_cita_ad{
+	background: rgb(31, 155, 229);
+	color: white;
+	font-family: roboto;
+}
+
+.cont_cita_ad a{
+	margin-top: 20px;
+}
+
+.imagenPerfil{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.nCita{
+
+	margin-top: 20px;
+}
+
+
+.cardBox{
+	padding:10px;
+	border-radius:3px;
+	border:0.5px solid #ccc;
+	margin-top: 10px;
+
+	box-shadow:2px 2px 5px 2px #ccc;
+	-webkit-box-shadow:2px 2px 5px 2px #ccc;
+	-moz-box-shadow:2px 2px 5px 2px #ccc;
+}
+
+.cardBoxCommon{
+	
+	border-radius:5px;
+	border:1px solid #ccc;
+	margin-top: 10px;
+
+
+}
+.cardBoxCommon .card-block{
+	padding: 10px;
+}
+
+.cardBoxCommon .card-footer{
+	background: #ccc;
+}
+
+.divBusquedaSecretaria a .cardBox{
+	border-bottom: 5px solid #E74C3C; 
+	border-radius:3px;
+}
+.divBusquedaPacientes a .cardBox{
+	border-bottom: 5px solid #3498DB; 
+	border-radius:3px;
+}
+.divBusquedaDoctores a .cardBox{
+	border-bottom: 5px solid #1ABC9C; 
+	border-radius:3px;
+}
+
+.texto-sr{
+	font-weight: bold;
+	color: #E74C3C;
+}
+
+.texto-pt{
+	font-weight: bold;
+	color: #3498DB;
+}
+
+.texto-dt{
+	font-weight: bold;
+	color: #1ABC9C;
+}
+
+	
+.jumbotron{
+	background: white;
+	color: #34495E;
+}
+
+.cardBox img{
+	margin-bottom:10px;
+}
+	
+.cardBox:hover{
+	box-shadow:2px 2px 5px 2px #999;
+	-webkit-box-shadow:2px 2px 5px 2px #999;
+	-moz-box-shadow:2px 2px 5px 2px #999;
+}
+
+.cardBox:active{
+	box-shadow:2px 2px 5px 2px rgb(22,25,55);
+	-webkit-box-shadow:2px 2px 5px 2px rgb(22,25,55);
+	-moz-box-shadow:2px 2px 5px 2px rgb(22,25,55);
+}
+
+.card-title{
+	font-weight:bold;
+	color:#000;
+}
+
+.card-text{
+	color:#2C3E50;
+}
+
+.tabla{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 100px;
+}
+
+.tabla-th{
+	background: rgb(52,152,219);
+	color:white;
+}
+
+.tabla-th a{
+	color: white;
+}
+
+.tabla-th a:hover{
+	color: black;
+}
+
+.tabla th, td {
+   padding: 15px;
+   text-align: left;
+   vertical-align: middle;
+   border-bottom:0.5px solid #ccc;
+   border-collapse: collapse;
+}
+
+.form-standar{
+	margin-top:90px;
+	margin-bottom: 20px;
+}
+
+.iconosPanel{
+	text-align: center;
+}
+
+
+.tooltip1{
+	background-color: rgb(0,173,193);
+	color:white;
+	font-family: 'Lato';
+	position: fixed;
+	font-size: 20px;
+	bottom: 5%;
+	left: -100%;
+	padding:15px 15px 15px 85px;
+
+	-webkit-box-shadow: 2px 2px 5px 3px gray;
+	-moz-box-shadow: 2px 2px 5px 3px gray;
+	-o-box-shadow: 2px 2px 5px 3px gray;
+	-ms-box-shadow: 2px 2px 5px 3px gray;
+}
+
+label{
+	font-weight: bold;
+}
+
+.mostrar{
+	display: none;
+}
+
+.titulo{
+	font-size: 25px;
+}
+
+.expediente p{
+	
+	font-size: 26px;
+}
+
+.expediente span{
+	font-weight: bold;
+}
+
+#mostrarBuscador{
+	font-size: 40px;
+	vertical-align: middle;
+}
+
+.estherlin_btn{
+	
+	width: 100%; 
+	height: 40px;
+	color:white;
+	border-radius: 5px;
+	position: absolute;
+	text-align: center;
+	margin: auto;
+	left: 0;
+	font-size: 30px;
+	text-align: center;
+}
+
+.estherlin_btn:hover{
+	cursor: pointer;
+}
+
+.ul_contenedor{
+	padding-top: 50px;
+}
+
+.v_menu{
+	height: 100%;
+	position: fixed;
+	top: 50px; left: 0;
+	padding-top: 5px;
+	width: 60px;
+	background: #34495E;
+}
+
+.menu_datos{
+	color:white;
+}
+	
+.estherlin{
+	list-style: none;
+	width: 100%;
+}
+.estherlin a{
+	display: none;		
+	padding-left:10px;
+	color:white;
+}
+
+.estherlin ul{
+	display: none;
+	padding-left: 20px;
+	border-left:1px solid black;
+
+}
+
+.estherlin li{
+	display: none;
+	padding-left: 20px;
+}
+
+.fa_ico{
+	font-size: 25px;
+	margin-left: 6px;
+	color: #fafafa;
+}
+
+.fa-angle-double-right{
+	color: #2C3E50;
+	margin:auto;
+}
+
+.r_pantalla{
+	margin: auto;
+	width: 90%;
+	padding: 1%;
+	padding-bottom: 100px;
+}
+
+.menu_img{
+	width: 150px; height: 150px;
+	border-radius: 50%;
+	background-color: red;
+	margin: auto;
+}
+
+.menu_info{
+	text-align: center;
+
+	padding-top:50px;
+	background-color: #34495E;
+	display: none;
+	border-bottom: solid;
+}
+
+.estherlin_info{
+	background-color: red;
+	position: absolute;
+	left: 45px;
+	list-style: none;
+}
+
+#div-imagenFlotante {
+	bottom:10px;
+	right:0px;
+	position: fixed;
+	_position:absolute;
+	clip:inherit;
+	width: 200px;
+
+	_top:expression(document.documentElement.scrollTop+document.documentElement.clientHeight-this.clientHeight);
+	_right:expression(document.documentElement.scrollLeft+ document.documentElement.clientWidth - offsetWidth);
+}
+
+
+footer{
+	color: white;
+	background: rgb(48, 60, 66);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom:0px;
+}
+
+footer p{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
