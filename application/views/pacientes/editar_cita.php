@@ -1,7 +1,7 @@
 
 <div class="container">
 	<h3 class="text-center contenedor">Modificar cita</h3>
-	<p class="text-center">Modifica todos los datos de tu cita y guarda los cambios</p>
+	<p class="text-center">Modificar los datos de tu cita y guarda los cambios.</p>
 	<div class="contenedorSec">
 		
 	</div>
@@ -35,7 +35,7 @@
 				<div class="cardBox text-center">
 					<img id="imgN2" class="nCita" src="<?php echo base_url('assets/images/comprobado.png') ?>" width="100px">
 					<h4 class="card-title">Elegir fecha</h4>
-					<input type="date" class="form-control"  name="FechaCita" min="<?php echo date('Y-m-d');?>" max="2018-12-31" value="<?php echo $datosCita[0]->Fecha ?>">
+					<input type="date" class="form-control"  name="FechaCita" min="<?php echo date('Y-m-d');?>" value="<?php echo $datosCita[0]->Fecha ?>">
 				</div>
 			</div>
 			<div class="col-md-4">

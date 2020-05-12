@@ -10,7 +10,7 @@ class Model_usuario extends CI_Model{
 
 	function obtenerCitas($id){
 
-		$query = $this->db->query("SELECT * FROM cita WHERE Paciente_idCliente = $id order by Fecha");
+		$query = $this->db->query("SELECT * FROM cita WHERE Paciente_idCliente = $id order by Fecha Asc");
 		
 		return $query->result();
 	}

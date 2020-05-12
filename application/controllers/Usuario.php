@@ -64,6 +64,7 @@ class Usuario extends CI_Controller{
         if ($id != null) {
             
             $data['vista'] = 'pacientes/editar_cita';
+           $data['titulo'] = "Editar Cita";
             $data['datosCita'] = $this->Model_usuario->obtenerDatosCita($id);
             $data['obtenerDepartamentos'] = $this->Model_usuario->obtenerDepartamentos();
 

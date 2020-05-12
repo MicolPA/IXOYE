@@ -1,7 +1,7 @@
 
 <div class="container">
 	<h3 class="text-center contenedor">Reservar nueva cita</h3>
-	<p class="text-center">Reserva tu cita otorgando la especialidad (solo si posee un referimiento del area), dia y hora.</p>
+	<p class="text-center">Reserva tu cita eligiendo la especialidad (solo si posee un referimiento del área), dia y hora.</p>
 
 	<div class="contenedorSec">
 		<div class="row">
@@ -35,7 +35,7 @@
 				<div class="cardBox text-center">
 					<img id="imgN2" class="nCita" src="<?php echo base_url('assets/images/n2-disabled.png') ?>" width="100px">
 					<h4 class="card-title n2">Elegir fecha</h4>
-					<input type="date" class="form-control" id="FechaCita" name="FechaCita" min="<?php echo date('Y-m-d');?>" max="2018-12-31">
+					<input type="date" class="form-control" id="FechaCita" name="FechaCita" min="<?php echo date('Y-m-d');?>">
 				</div>
 			</div>
 			<div class="col-md-4">

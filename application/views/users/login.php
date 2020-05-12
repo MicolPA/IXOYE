@@ -15,11 +15,11 @@
                     }elseif(!empty($error_msg)){  echo '<p class="alert alert-danger">'.$error_msg.'</p>';  }
                 ?>
                     <div class="form-group">
-                            <input  id="codigo" type="cedula" class="form-control text-center" name="cedula" placeholder="Cedula de identidad" required="">
+                            <input  id="codigo" type="cedula" class="form-control text-center" name="cedula" placeholder="Cédula de identidad" required="">
                     </div>
 
                     <div class="form-group">
-                            <input type="password" class="form-control border-input text-center" name="clave" placeholder="Su clave de acceso" required="">
+                            <input type="password" class="form-control border-input text-center" name="clave" placeholder="Clave de acceso" required="">
                             <?php echo form_error('password','<span class="help-block">','</span>'); ?>
                     </div>
                     

@@ -138,11 +138,11 @@
   <div class="container padding_bottom_full padding_top_full">
       <div class="row">
         <div class="col-md-12">
-          <h2>Reserva tu cita medica</h2>
-          <h6>Ahora es más facil reservar una cita. <br>
+          <h2>Reserva tu cita médica</h2>
+          <h6>Ahora es más fácil reservar una cita. <br>
           Podrás elegir la especialidad, fecha y hora que desees.</h6>
 
-          <a href="#fakelink" class="btn btn-inverse btn-lg">Reservar cita</a>
+          <a href="<?= base_url('index.php/Usuario') ?>" class="btn btn-inverse btn-lg">Reservar cita</a>
       </div>
       </div>
   </div>
@@ -152,7 +152,7 @@
 <div class="container">
   <div class="row margin_top_full ">
     <div class="col-md-12">
-        <h3 class="text-center">Enlaces de interes</h3>
+        <h3 class="text-center">Enlaces de interés</h3>
         <hr>
         <a href="">
           <div class="col-lg-3 col-md-3 divContAd">
