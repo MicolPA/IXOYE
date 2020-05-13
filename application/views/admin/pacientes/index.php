@@ -25,15 +25,15 @@
                 
                 <?php if ($_SESSION['rol'] == 'Administrador' || $_SESSION['rol'] == 'Secretaria/o'): ?>
                     
-                    <td><a href="<?php echo base_url('index.php/pacientes/editar?id='.$datos->id) ?>" class="btn btn-info"><span class="fui-new"></span></a></td>
+                    <td><a href="<?php echo base_url('index.php/pacientes/editar?id='.$datos->id) ?>" class="btn btn-info btn-sm"><span class="fui-new"></span></a></td>
 
-                    <td><a onclick="javascript:borrar(<?php echo $datos->id ?>,'paciente')"  class="btn btn-danger"><span class="fui-trash"></span></a></td>
+                    <td><a onclick="javascript:borrar(<?php echo $datos->id ?>,'paciente')"  class="btn btn-danger btn-sm"><span class="fui-trash"></span></a></td>
 
                 <?php endif ?>
 
-                <td><a href="<?php echo base_url('index.php/doctor/consulta/' ). $datos->id ?>"  class="btn btn-primary">Consulta</span></a></td>
+                <td><a href="<?php echo base_url('index.php/doctor/consulta/' ). $datos->id ?>"  class="btn btn-primary btn-sm">Consulta</span></a></td>
 
-                <td><a class="btn btn-info" href="<?php echo base_url('index.php/doctor/expediente/' ). $datos->id ?>">Expediente</a></td>
+                <td><a class="btn btn-info btn-sm" href="<?php echo base_url('index.php/doctor/expediente/' ). $datos->id ?>">Expediente</a></td>
             </tr>
         <?php endforeach ?>
         </tbody>

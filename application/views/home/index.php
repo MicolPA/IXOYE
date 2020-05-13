@@ -154,7 +154,7 @@
     <div class="col-md-12">
         <h3 class="text-center">Enlaces de interés</h3>
         <hr>
-        <a href="">
+        <a href="https://911.gob.do" target="_blank">
           <div class="col-lg-3 col-md-3 divContAd">
             <div class="cardBox">
               <img src="<?php echo base_url('assets/images/911.png'); ?>" class="iconosPanel" width="100%" alt="">
@@ -162,7 +162,7 @@
               
           </div>
         </a>
-        <a href="">
+        <a href="https://sns.gob.do" target="_blank">
           <div class="col-lg-3 col-md-3 divContAd">
             <div class="cardBox">
               <img src="<?php echo base_url('assets/images/logo-sns.png'); ?>" class="iconosPanel" width="100%" alt="">
@@ -171,7 +171,7 @@
           </div>
         </a>
 
-        <a href="">
+        <a href="https://observatorioserviciospublicos.gob.do" target="_blank">
           <div class="col-lg-3 col-md-3 divContAd">
             <div class="cardBox">
               <img src="<?php echo base_url('assets/images/observatorio.png'); ?>" class="iconosPanel" width="100%" alt="">
@@ -180,7 +180,7 @@
           </div>
         </a>
 
-        <a href="">
+        <a href="http://311.gob.do" target="_blank">
           <div class="col-lg-3 divContAd">
             <div class="cardBox">
               <img src="<?php echo base_url('assets/images/311.png'); ?>" class="iconosPanel" width="100%" alt="">
