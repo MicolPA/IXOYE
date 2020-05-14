@@ -96,10 +96,14 @@
     <script src="<?php echo base_url('assets/vex/dist/js/vex.combined.min.js') ?>"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
     <script src="<?php echo base_url('assets/slider/js/index.js') ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.mask.min.js') ?>"></script>
 
 	<script>
 
-
+	$('input[name="Cedula"]').mask('000-0000000-0');
+	$('input[name="cedula"]').mask('000-0000000-0');
+	$('input[name="Telefono_Celular"]').mask('000-000-0000');
+	
     $("#imagenFlotante").mouseenter(function(){
 	    $(".tooltip1").animate({
 	        left: "0"

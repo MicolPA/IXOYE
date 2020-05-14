@@ -1,7 +1,7 @@
 <?php 
 	// foreach ($obtenerExpediente as $datosConsulta) {}
 	foreach ($listadoPacienteExp as $datosPacientes) {}
-	$datos = $obtenerExpediente[0];
+	$datos = isset($obtenerExpediente[0])?$obtenerExpediente[0]:null;
 ?>
 <style>
 	.form-control{
@@ -23,7 +23,8 @@
 		
 	</div>
 
-	<div class="col-md-9">
+	<?php if ($datos): ?>
+		<div class="col-md-9">
 			<div class="form-group">
 				<p class='texto-pt'>Sintomas</p>
 				<input type="text" class="form-control" value="<?= $datos->Sintomas ?>" readonly>
@@ -39,9 +40,14 @@
 			</div>
 			<div class="form-group">
 				<p class='texto-pt'>Diagnostico</p>
-				<input type="text" class="form-control" value="<?=  $datos->Diagnostico; ?>" readonly>
+				<input type="text" class="form-control" value="<?=  str_replace(',', ', ', $datos->Diagnostico); ?>" readonly>
 			</div>
-	</div>
+		</div>
+	<?php else: ?>
+	<div class="col-md-9">
+		<h2>No posee ningun expediente aún.</h2>
+	</div>	
+	<?php endif ?>
 	
 </div>
 <div id='div-imagenFlotante'>

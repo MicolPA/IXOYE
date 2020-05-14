@@ -1,5 +1,5 @@
 
-<h3>Registrar nueva secretaria/o</h3>
+		<h3>Registrar nueva secretaria/o</h3>
 		<p><i class="fa fa-dot-circle"></i> &nbsp; Rellenar cada campo con la información correspondiente del perfil a registrar.</p>
 		<hr>
 
@@ -15,7 +15,7 @@
 		    </div>
 		    <div class="form-group" id="div-cedula">
 		        <label for="Cedula">Cedula</label>
-		        <input type="number" name="Cedula" class="form-control" id="Cedula" onkeyup="calcularLogintud(13, 'Cedula', 'div-cedula')" maxlength="13" placeholder="Cedula" required>
+		        <input type="text" name="Cedula" class="form-control" id="Cedula" maxlength="13" placeholder="Cedula" required>
 		    </div>
 		</div>
 
@@ -26,7 +26,7 @@
 		    </div>
 		    <div class="form-group" id="div-telefono">
 		        <label for="Telefono_Celular">Telefono</label>
-		        <input type="number" name="Telefono_Celular" onkeyup="calcularLogintud(10, 'Telefono_Celular', 'div-telefono')" maxlength="10" class="form-control" id="Telefono_Celular" placeholder="Telefono" required>
+		        <input type="text" name="Telefono_Celular" maxlength="10" class="form-control" id="Telefono_Celular" placeholder="Telefono" required>
 		    </div>
 
 		    <div class="form-group">

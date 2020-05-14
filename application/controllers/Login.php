@@ -41,7 +41,7 @@ class Login extends CI_Controller {
                     $con['returnType'] = 'single';
                     $con['conditions'] = array(
                         'clave' => $this->input->post('clave'),
-                        'cedula' => $this->input->post('cedula'),
+                        'cedula' => str_replace('-', '', $this->input->post('cedula')),
                         );
                 $checkLogin = $this->User->getRows($con);
                 if($checkLogin){
@@ -96,7 +96,7 @@ class Login extends CI_Controller {
             $userData = array(
                 'nombre' => strip_tags($this->input->post('name')),
                 'apellido' => strip_tags($this->input->post('lastname')),
-                'cedula' => strip_tags($this->input->post('cedula')),
+                'cedula' => strip_tags(str_replace('-', '', $this->input->post('cedula'))),
                 'fecha_nacimiento' => strip_tags($this->input->post('fecha_nacimiento')),
                 'correo' => strip_tags($this->input->post('correo')),
                 'sexo' => $this->input->post('gender'),
@@ -150,7 +150,7 @@ class Login extends CI_Controller {
     }   
     public function cedula_check($cdl){
         $con['returnType'] = 'count';
-        $con['conditions'] = array('cedula'=>$cdl);
+        $con['conditions'] = array('cedula'=>str_replace('-', '', $cdl));
         $checkCedula = $this->User->getRows($con);
         if($checkCedula > 0){
             $this->form_validation->set_message('cedula_check', '<span style="color:Orange;">Esta cedula ya existe favor de revisar.</span>');

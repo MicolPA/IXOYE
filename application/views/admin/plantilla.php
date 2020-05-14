@@ -112,6 +112,7 @@
     <script src="<?php echo base_url('assets/js/application.js') ?>"></script>
     <script src="<?php echo base_url('assets/js/script.js') ?>"></script>
     <script src="<?php echo base_url('assets/vex/dist/js/vex.combined.min.js') ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.mask.min.js') ?>"></script>
     
   	<style>
   		.navbar-custom{
@@ -128,6 +129,10 @@
   	</style>
 
 	<script>
+
+	$('input[name="Cedula"]').mask('000-0000000-0');
+	$('input[name="cedula"]').mask('000-0000000-0');
+	$('input[name="Telefono_Celular"]').mask('000-000-0000');
 
 	$('#PacientesCheck').click(function(){
   		if (this.checked) {
