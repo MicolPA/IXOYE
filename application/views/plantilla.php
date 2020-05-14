@@ -35,7 +35,7 @@
 	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 	          <span class="sr-only">Toggle navigation</span>
 	        </button>
-	        <a class="navbar-brand elementos-menu" href="<?php echo base_url() ?>"><i class="fa fa-home"></i>&nbsp; IXOYE</a>
+	        <a class="navbar-brand elementos-menu" href="<?php echo base_url() ?>"><i class="fa fa-home"></i>&nbsp; HOSPXY</a>
 	      </div>
 	      <div class="navbar-collapse collapse">
 	        
@@ -71,11 +71,11 @@
 	<footer class="margin_top_full">
 
 	  <div class="container">
-	    <p>Hospital IXOYE</p>
+	    <p>Hospital HOSPXY</p>
 	    <ul class="list-unstyled">
-	      <li><i class="fa fa-map-marker"></i>&nbsp; Av. Las Américas, Santo Domingo Este</li>
+	      <li><i class="fa fa-map-marker"></i>&nbsp; Santo Domingo Este</li>
 	      <li><i class="fa fa-phone"></i>&nbsp; Tel. (809) 111-2222</li> 
-	      <li><i class="fa fa-envelope"></i>&nbsp; hospital@ixoye.com</li>  
+	      <li><i class="fa fa-envelope"></i>&nbsp; hospital@hospxy.com</li>  
 	    </ul>
 	  </div>
 

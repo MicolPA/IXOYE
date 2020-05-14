@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title><?php echo $titulo ?> | IXOYE</title>
+	<title><?php echo $titulo ?> | HOSPXY</title>
 
 	<!-- ESTILOS -->
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/bootstrap/css/bootstrap.min.css') ?>">
@@ -27,7 +27,7 @@
 	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 	          <span class="sr-only">Toggle navigation</span>
 	        </button>
-	        <a class="navbar-brand elementos-menu" href="<?php echo base_url('index.php/Admin') ?>"><i class="fa fa-home"></i>&nbsp; IXOYE</a>
+	        <a class="navbar-brand elementos-menu" href="<?php echo base_url('index.php/Admin') ?>"><i class="fa fa-home"></i>&nbsp; HOSPXY</a>
 	      </div>
 	      <div class="navbar-collapse collapse">
 	        
